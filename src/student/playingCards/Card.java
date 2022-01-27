@@ -24,11 +24,11 @@ public class Card implements Comparable<Card>{
         String c;
         
         c = switch(rank) {
-            case 0 -> "A"; // Ace
-            case 10 -> "J"; // Jack
-            case 11 -> "Q"; // Queen
-            case 12 -> "K"; // King
-            default -> String.valueOf(rank + 1);
+            case 1 -> "A"; // Ace
+            case 11 -> "J"; // Jack
+            case 12 -> "Q"; // Queen
+            case 13 -> "K"; // King
+            default -> String.valueOf(rank);
         };
         return switch(suit) {
             case 0 -> c + "d"; // Diamonds (smallest)

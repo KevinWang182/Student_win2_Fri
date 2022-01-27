@@ -10,7 +10,7 @@ public class Deck extends Cards{
         // Give each card a suit & rank in order
         for(int suit = 0; suit < 4; suit++)
             for(int rank = 0; rank < 13; rank++)
-                deck[suit * 13 + rank] = new Card(suit, rank);
+                deck[suit * 13 + rank] = new Card(suit, rank + 1);
     }
     
     public void sort() {
