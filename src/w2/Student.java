@@ -11,6 +11,7 @@ public class Student implements Comparable<Student>{
         this.age = age;
     }
 
+    @Override
     public int compareTo(Student o) {
         return age - o.age;
     }
