@@ -30,7 +30,7 @@ public class Deck extends Cards{
         /** 
          * Since the deck was already sorted when it was created and it's values
          * are fixed, it's probably better to simply recreate/redefine the array
-         * using the for loops above rather than sorting it.
+         * rather than sorting it.
          */
     }
     
