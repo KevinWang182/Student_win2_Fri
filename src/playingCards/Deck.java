@@ -3,6 +3,11 @@ package playingCards;
 public class Deck extends Cards{
     private Card[] deck;
     
+    @Override
+    public Card[] getCard() {
+        return card;
+    }
+    
     // Create new deck;
     public void create() {
         deck = getCard();
