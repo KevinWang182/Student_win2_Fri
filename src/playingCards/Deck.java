@@ -34,8 +34,8 @@ public class Deck extends Cards{
         
         /** 
          * Since the deck was already sorted when it was created and it's values
-         * are fixed, it's probably better to simply recreate/redefine the array
-         * rather than sorting it.
+         * are fixed, it's probably better to simply recreate the array rather
+         * than sorting it in this case.
          */
     }
     
